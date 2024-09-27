@@ -169,7 +169,7 @@ const cartItems = cart.map((item) => {
 }).join("")
 
 const message = encodeURIComponent(cartItems)
-const phone = "987619418"
+const phone = "555555555"
 window.open(`https://wa.me/${phone}?text=${message} Endereco: ${addressInput.value}`, "_blank")
 
 cart = [];
